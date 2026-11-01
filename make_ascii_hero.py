@@ -7,7 +7,7 @@ How it works: the avatar is "inflated" into a 3D bust (depth from the silhouette
 ray-marched from many angles, and every angle becomes one ASCII frame inside the SVG.
 CSS animation plays the frames in order, so the head spins on GitHub with no JavaScript.
 
-Usage:
+Usage inside a GitHub README.md:
     pip install pillow numpy scipy
     python make_ascii_hero.py avatar.jpg
 
