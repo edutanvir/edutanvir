@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="84" viewBox="0 0 900 84" role="img" aria-label="Good morning, Bonjour, Good evening, Bonne soirée">
+<style>
+  text { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 38px; font-weight: 700; text-anchor: middle; }
+  .g { opacity: 0; animation: cyc 14s infinite; animation-fill-mode: both; }
+  @keyframes cyc {
+    0%   { opacity: 0; transform: translateY(16px); }
+    4%   { opacity: 1; transform: translateY(0); }
+    21%  { opacity: 1; transform: translateY(0); }
+    25%, 100% { opacity: 0; transform: translateY(-16px); }
+  }
+  .d { opacity: .25; animation: dot 14s infinite; }
+  @keyframes dot {
+    0%   { opacity: .25; }
+    1%   { opacity: 1; }
+    22%  { opacity: 1; }
+    25%, 100% { opacity: .25; }
+  }
+</style>
+
+<text class="g" x="450" y="50" fill="#f5a000" style="animation-delay:0s">Good morning ☀️, I'm</text>
+<text class="g" x="450" y="50" fill="#06b6d4" style="animation-delay:3.5s">Bonjour 🥐, je suis</text>
+<text class="g" x="450" y="50" fill="#ff7a1a" style="animation-delay:7s">Good evening 🌆, I'm</text>
+<text class="g" x="450" y="50" fill="#2ea043" style="animation-delay:10.5s">Bonne soirée 🌙, je suis</text>
+
+<circle class="d" cx="423" cy="74" r="3.5" fill="#f5a000" style="animation-delay:0s"/>
+<circle class="d" cx="441" cy="74" r="3.5" fill="#06b6d4" style="animation-delay:3.5s"/>
+<circle class="d" cx="459" cy="74" r="3.5" fill="#ff7a1a" style="animation-delay:7s"/>
+<circle class="d" cx="477" cy="74" r="3.5" fill="#2ea043" style="animation-delay:10.5s"/>
+</svg>

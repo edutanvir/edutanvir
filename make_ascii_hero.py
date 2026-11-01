@@ -25,6 +25,7 @@ USER = "edutanvir"
 
 LEFT = [  # (kind, text)   kind: cmd = prompt+command, out = output line
     ("cmd", "whoami"),
+    ("out", "> Md Tanvir Ahmed"),
     ("out", "> Azure Data Engineer"),
     ("out", "> Pipelines that scale"),
     ("gap", ""),
@@ -157,7 +158,7 @@ while x < W:
 sparks = []
 for (sx, sy, c) in random.sample(cells, 60):
     ch = random.choice("01@$%!#")
-    col = random.choice(["#ffffff", "#00e5ff", "#ff2bd6", "#39ff14", "#ffe600"])
+    col = random.choice(["#ffffff", "#00e5ff", "#ff8c00", "#39ff14", "#ffe600"])
     dur, beg = random.uniform(1.6, 4.2), random.uniform(2.5, 8)
     sparks.append(f'<text x="{sx:.1f}" y="{sy + CH - 1:.1f}" fill="{col}" class="sp" opacity="0">{ch}'
                   f'<animate attributeName="opacity" values="0;1;0" dur="{dur:.1f}s" begin="{beg:.1f}s" '
@@ -183,7 +184,7 @@ for n, (kind, txt) in enumerate(LEFT):
         inner = f'<tspan fill="#39ff14">root@{USER}:~$</tspan> <tspan fill="#ffffff">{esc(txt)}</tspan>'
         nch = len(f"root@{USER}:~$ {txt}")
     else:
-        colr = {"out": "#00e5ff", "live": "#ffe600", "cursor": "#ff7bd5"}[kind]
+        colr = {"out": "#00e5ff", "live": "#ffe600", "cursor": "#ffb703"}[kind]
         inner = f'<tspan fill="{colr}">{esc(txt)}</tspan>'
         nch = len(txt)
     dur = max(.5, nch * .035)
@@ -194,13 +195,13 @@ for n, (kind, txt) in enumerate(LEFT):
                     f'repeatCount="indefinite"/></circle>')
     if kind == "cursor":
         cx = LX + nch * 7.85
-        ltxt.append(f'<rect x="{cx:.1f}" y="{y - 12}" width="8" height="15" fill="#ff7bd5" opacity="0">'
+        ltxt.append(f'<rect x="{cx:.1f}" y="{y - 12}" width="8" height="15" fill="#ffb703" opacity="0">'
                     f'<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.01;.5;.51;1" dur="1s" '
                     f'begin="{t_cur + dur:.2f}s" repeatCount="indefinite"/></rect>')
     t_cur += dur + .25
     idx += 1
 
-rcolors = ["#ff2bd6", "#00e5ff", "#39ff14", "#ffe600", "#ff9f1c", "#b388ff", "#00ffa3", "#ff5c5c"]
+rcolors = ["#ff8c00", "#00e5ff", "#39ff14", "#ffe600", "#ff9f1c", "#4da3ff", "#00ffa3", "#ff6b35"]
 RX, RY = 722, 176
 rtxt = []
 t_cur = 1.6
@@ -239,8 +240,8 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
     <stop offset=".93" stop-color="#a8f6ff"/><stop offset="1" stop-color="#ffffff"/>
   </linearGradient>
   <linearGradient id="tm" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="{TAIL * 14}">
-    <stop offset="0" stop-color="#ff2bd6" stop-opacity="0"/><stop offset=".7" stop-color="#ff2bd6" stop-opacity=".75"/>
-    <stop offset=".93" stop-color="#ffb3f1"/><stop offset="1" stop-color="#ffffff"/>
+    <stop offset="0" stop-color="#ff8c00" stop-opacity="0"/><stop offset=".7" stop-color="#ff8c00" stop-opacity=".75"/>
+    <stop offset=".93" stop-color="#ffd9a8"/><stop offset="1" stop-color="#ffffff"/>
   </linearGradient>
   <radialGradient id="vig" cx=".5" cy=".5" r=".75">
     <stop offset=".45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".7"/>
@@ -265,7 +266,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   .pr{{opacity:0;animation:rv .4s ease forwards}}
   @keyframes rv{{from{{opacity:0}}to{{opacity:1}}}}
   .a{{fill:#12d64a}} .b{{fill:#39ff14}} .c{{fill:#00ffc8}} .d{{fill:#00e5ff}} .e{{fill:#c4fff2}}
-  .w{{fill:#fff}} .p{{fill:#ff2bd6}}
+  .w{{fill:#fff}} .p{{fill:#ff8c00}}
   .tt{{font-size:13px}} .ttl{{font-size:10px;fill:#4b8a62}} .sp{{font-size:10px;font-weight:700}}
   .sweep{{animation:sw 7s linear infinite;opacity:0}}
   @keyframes sw{{0%{{transform:translateY(0);opacity:0}}4%{{opacity:1}}42%{{transform:translateY({ph:.0f}px);opacity:1}}46%,100%{{transform:translateY({ph:.0f}px);opacity:0}}}}
@@ -288,7 +289,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   {"".join(rtxt)}
 </g>
 <rect x="1.5" y="1.5" width="{W - 3}" height="{H - 3}" rx="15" fill="none" stroke="#39ff14" stroke-width="2">
-  <animate attributeName="stroke" values="#39ff14;#00e5ff;#ff2bd6;#ffe600;#39ff14" dur="8s" repeatCount="indefinite"/>
+  <animate attributeName="stroke" values="#39ff14;#00e5ff;#ff8c00;#ffe600;#39ff14" dur="8s" repeatCount="indefinite"/>
 </rect>
 </svg>
 '''
