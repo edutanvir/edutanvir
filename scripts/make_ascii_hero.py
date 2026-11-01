@@ -31,7 +31,7 @@ USER = "edutanvir"
 FRAMES = 48            # angles in one full turn (more = smoother but bigger file)
 FRAME_SEC = 0.15       # seconds each frame is shown -> one turn = FRAMES * FRAME_SEC
 SPIN_START = 4.4       # seconds of front view (reveal + pause) before the head starts to spin
-DEPTH = 0.95           # head depth relative to its width (bigger = rounder head)
+DEPTH = 0.68           # more natural human head depth; avoids a ball-like silhouette
 
 SKIN_COLOR = "#aab6c3"   # silver-grey glyphs (face)
 DARK_COLOR = "#f2f7fc"   # bright white glyphs (hair, beard, eyes)
@@ -99,7 +99,7 @@ RPROF = .75 * bw / 2
 u = np.clip(dt / RPROF, 0, 1)
 hgt = HMAX * np.sqrt(1 - (1 - u) ** 2)                       # round "pillow" profile
 yy, xx = np.mgrid[0:h0, 0:w0]
-nose_x, nose_y = x0 + .49 * bw, y0 + .645 * bh                 # small nose bump for a more 3D face
+nose_x, nose_y = x0 + .49 * bw, y0 + .615 * bh                 # small nose bump for a more 3D face
 hgt += 55 * np.exp(-(((xx - nose_x) / 45) ** 2 + ((yy - nose_y) / 45) ** 2) / 2)
 hgt = (ndi.gaussian_filter(hgt, 8) * m).astype(np.float32)
 hy_, hx_ = np.gradient(hgt)
