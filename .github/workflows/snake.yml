@@ -1,9 +1,9 @@
-name: Generate snake animation
+name: Generate profile assets
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"   # every day at midnight UTC
+  workflow_dispatch:       # lets you run it by hand from the Actions tab
   push:
     branches: [main, master]
 
@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Check out the repo (for scripts/make_stats.py)
+        uses: actions/checkout@v4
+
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
@@ -23,6 +26,12 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
+      - name: Generate stats and language cards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/make_stats.py dist
+
+      # Publish dist/ to a branch called "output" with plain git
       - name: Push to the output branch
         run: |
           cd dist
@@ -31,6 +40,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -q -b output
           git add .
-          git commit -q -m "Generate snake animation"
+          git commit -q -m "Generate profile assets"
           git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           git push -f origin output

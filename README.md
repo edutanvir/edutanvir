@@ -11,7 +11,7 @@
 <!-- Typing animation -->
 <p align="center">
   <a href="https://github.com/edutanvir">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&multiline=false&width=700&height=50&lines=Azure+Data+Engineer+%7C+4%2B+years;ADF+%C2%B7+Databricks+%C2%B7+PySpark+%C2%B7+Synapse;Medallion+Architecture+%F0%9F%8F%97%EF%B8%8F;Streaming+%26+Batch+Pipelines+%E2%9A%A1;Now+learning%3A+AI+%C2%B7+LLMs+%C2%B7+RAG+%F0%9F%A4%96;Open+to+work+%E2%80%94+let's+talk+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=39FF14&center=true&vCenter=true&multiline=false&width=700&height=50&lines=Azure+Data+Engineer+%7C+4%2B+years;ADF+%C2%B7+Databricks+%C2%B7+PySpark+%C2%B7+Synapse;Medallion+Architecture+%F0%9F%8F%97%EF%B8%8F;Streaming+%26+Batch+Pipelines+%E2%9A%A1;Now+learning%3A+AI+%C2%B7+LLMs+%C2%B7+RAG+%F0%9F%A4%96;Open+to+work+%E2%80%94+let's+talk+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
@@ -81,15 +81,13 @@ class AzureDataEngineer:
 
 </div>
 
-> 📌 Pin your best 4–6 repos on your profile, and link each row above to its repo.
-
 ---
 
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=edutanvir&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=39ff14&text_color=c9d1d9" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=edutanvir&layout=compact&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=c9d1d9" />
+  <img height="190" alt="GitHub stats" src="https://raw.githubusercontent.com/edutanvir/edutanvir/output/stats-card.svg" />
+  <img height="190" alt="Top languages" src="https://raw.githubusercontent.com/edutanvir/edutanvir/output/langs-card.svg" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=edutanvir&hide_border=true&background=0d1117&ring=ff9f1c&fire=ff6b00&currStreakLabel=00e5ff&sideLabels=39ff14&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" />
