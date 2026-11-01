@@ -1,0 +1,6 @@
+*.py
+assets/hero-ascii-old.svg
+scripts/
+scripts/*.py
+
+
