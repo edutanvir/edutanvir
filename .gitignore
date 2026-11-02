@@ -2,3 +2,9 @@ venv/
 __pycache__/
 .DS_Store
 avatar.jpg
+
+assets/
+hero-ascii.svg
+
+edutanvir/
+make_ascii_hero.py
