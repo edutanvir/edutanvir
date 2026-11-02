@@ -4,7 +4,10 @@ __pycache__/
 avatar.jpg
 
 assets/
+__pycache__/
 hero-ascii.svg
 
-edutanvir/
+scripts/
+__pycache__/
 make_ascii_hero.py
+make_ascii_hero_old.py
