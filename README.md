@@ -8,10 +8,16 @@
 <p align="center">I design and build cloud data pipelines and medallion-architecture lakehouses on Azure (batch and streaming), and I'm currently adding AI, LLM and RAG skills. Open to Data Engineer roles.</p>
 
 <p align="center">
-  <a href="https://edutanvir.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-B45309?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>&nbsp;
-  <a href="https://www.linkedin.com/in/tanvir-de/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
-  <a href="https://github.com/edutanvir?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-1F2937?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=edutanvir&label=PROFILE%20VIEWS&color=1F2937&labelColor=0F172A&style=for-the-badge" alt="Profile views" />
+  <a href="https://edutanvir.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-B45309?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>&nbsp;
+  <a href="https://www.linkedin.com/in/tanvir-de/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>&nbsp;
+  <a href="https://github.com/edutanvir?tab=repositories">
+    <img src="https://img.shields.io/badge/Projects-1F2937?style=flat&logo=github&logoColor=white" alt="Projects" />
+  </a>&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=edutanvir&label=Profile%20Views&color=1F2937&labelColor=0F172A&style=flat" alt="Profile views" />
 </p>
 
 ---
@@ -37,19 +43,19 @@ class AzureDataEngineer:
 ## 🛠️ Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=azure,databricks,spark,python,mysql,postgres,powerbi,git,github,githubactions,vscode,linux&perline=12" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=azure,databricks,spark,python,mysql,postgres,powerbi,git,github,githubactions,vscode,linux&perline=12" alt="Technology stack" />
 </p>
 
 <div align="center">
 
 | Category | Tools |
 |:--|:--|
-| ☁️ **Cloud** | ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![ADLS Gen2](https://img.shields.io/badge/ADLS_Gen2-0062AD?style=flat-square&logo=microsoftazure&logoColor=white) ![Synapse](https://img.shields.io/badge/Synapse-5E5E5E?style=flat-square&logo=microsoftazure&logoColor=white) ![Fabric](https://img.shields.io/badge/Microsoft_Fabric-117865?style=flat-square&logo=microsoft&logoColor=white) ![Azure SQL](https://img.shields.io/badge/Azure_SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) |
-| 🔄 **Orchestration** | ![ADF](https://img.shields.io/badge/Azure_Data_Factory-0078D4?style=flat-square&logo=azuredatafactory&logoColor=white) ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white) |
-| ⚡ **Processing** | ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white) ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![Spark SQL](https://img.shields.io/badge/Spark_SQL-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) |
-| 📊 **BI** | ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) |
-| 🔐 **Security & DevOps** | ![Key Vault](https://img.shields.io/badge/Key_Vault-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![RBAC](https://img.shields.io/badge/RBAC-7ee787?style=flat-square&logoColor=black) ![Managed Identity](https://img.shields.io/badge/Managed_Identities-00b8d4?style=flat-square) ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Agile](https://img.shields.io/badge/Agile%2FScrum-FF6F61?style=flat-square) |
-| 🤖 **Learning now** | ![LLM](https://img.shields.io/badge/LLMs-ff9f1c?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-00c853?style=flat-square) ![GenAI](https://img.shields.io/badge/Generative_AI-00b8d4?style=flat-square) |
+| ☁️ **Cloud** | ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white) ![ADLS Gen2](https://img.shields.io/badge/ADLS_Gen2-0062AD?style=flat&logo=microsoftazure&logoColor=white) ![Synapse](https://img.shields.io/badge/Synapse-5E5E5E?style=flat&logo=microsoftazure&logoColor=white) ![Fabric](https://img.shields.io/badge/Microsoft_Fabric-117865?style=flat&logo=microsoft&logoColor=white) ![Azure SQL](https://img.shields.io/badge/Azure_SQL-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white) |
+| 🔄 **Orchestration** | ![ADF](https://img.shields.io/badge/Azure_Data_Factory-0078D4?style=flat&logo=azuredatafactory&logoColor=white) ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat&logo=azuredevops&logoColor=white) |
+| ⚡ **Processing** | ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white) ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white) ![Spark SQL](https://img.shields.io/badge/Spark_SQL-E25A1C?style=flat&logo=apachespark&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white) |
+| 📊 **BI** | ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black) |
+| 🔐 **Security & DevOps** | ![Key Vault](https://img.shields.io/badge/Key_Vault-0078D4?style=flat&logo=microsoftazure&logoColor=white) ![RBAC](https://img.shields.io/badge/RBAC-7ee787?style=flat&logoColor=black) ![Managed Identity](https://img.shields.io/badge/Managed_Identities-00b8d4?style=flat) ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat&logo=githubactions&logoColor=white) ![Agile](https://img.shields.io/badge/Agile%2FScrum-FF6F61?style=flat) |
+| 🤖 **Learning now** | ![LLM](https://img.shields.io/badge/LLMs-ff9f1c?style=flat) ![RAG](https://img.shields.io/badge/RAG-00c853?style=flat) ![GenAI](https://img.shields.io/badge/Generative_AI-00b8d4?style=flat) |
 
 </div>
 
