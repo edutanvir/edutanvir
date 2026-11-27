@@ -66,18 +66,21 @@ class AzureDataEngineer:
 
 ---
 
+
 ## 🚀 Featured projects
 
 <div align="center">
 
 | Project | What it shows | Stack |
 |:--|:--|:--|
-| 🛢️ **Oil & Gas Price Pipeline** | End-to-end medallion architecture | `ADF` `Databricks` `PySpark` |
-| 🚕 **NYC Taxi Pipeline** | Large-scale and streaming data | `Databricks` `Spark` `ADLS Gen2` |
-| 🛒 **Retail Sales Analytics** | Bronze → Silver → Gold, star schema, KPIs | `Synapse` `ADLS Gen2` `Power BI` |
-| 🏥 **Healthcare Analytics** | Fabric + Power BI dashboards | `Fabric` `Power BI` |
+| ⛏️ **MineMind – AI Mining Intelligence** | AI-powered mining intelligence, production analytics, commodity insights and interactive exploration | `Gemini API` `Streamlit` `DuckDB` `BigQuery` |
+| 🛢️ **Oil & Gas Price Pipeline** | End-to-end medallion architecture and automated data processing | `ADF` `Databricks` `PySpark` |
+| 🚕 **NYC Taxi Pipeline** | Large-scale data ingestion, transformation and analytics | `ADF` `ADLS Gen2` `Synapse` |
+| 🛒 **Retail Sales Analytics** | Bronze → Silver → Gold, dimensional modeling, star schema and KPIs | `Synapse` `ADLS Gen2` `Power BI` |
+| 🏥 **Healthcare Analytics** | Healthcare data transformation and analytical dashboards | `Databricks` `PySpark` `Power BI` |
 
 </div>
+
 
 ---
 
